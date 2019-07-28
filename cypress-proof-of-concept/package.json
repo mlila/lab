@@ -7,9 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open"
   },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.3.2"
+    "cypress": "^3.3.2",
+    "cypress-cucumber-preprocessor": "^1.12.0"
   }
 }
