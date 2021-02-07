@@ -1,4 +1,5 @@
-name: 'PR Title Checker'
+- name: Pull Request title naming rules
+  uses: naveenk1223/action-pr-title@v1.0.0
 on: 
   pull_request:
     types: [edited, opened, synchronize, reopened]
